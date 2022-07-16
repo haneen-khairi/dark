@@ -1,0 +1,29 @@
+
+
+.dark{
+  background-color:#000;
+  color:#fff;
+}
+
+.light{
+  background-color:#fff;
+  color:#000;
+}
+.show{
+  display:block;
+}
+.hidden{
+  display:none;
+}
+.logo{
+  width:50px;
+}
+.navbar-h{
+  display:flex!important;
+  flex-wrap: nowrap!important;
+  /* flex-direction: row; */
+  align-content: center!important;
+  justify-content: space-between!important;
+  align-items: center!important;
+  width: 75%;
+}
