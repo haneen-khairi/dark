@@ -4,19 +4,19 @@ import './css/App.css';
 
 
 function Login(props) {
-// useEffect(()=>{
-// let obj={
-//     id:2,
-//     name:"haneen",
-//     phone:"0790790520",
-// }
+    // useEffect(()=>{
+    // let obj={
+    //     id:2,
+    //     name:"haneen",
+    //     phone:"0790790520",
+    // }
 
-// let newObj={...obj , id3}
+    // let newObj={...obj , id3}
 
-// },[])
+    // },[])
 
-  
- 
+
+
     const handleSignUp = () => {
         props.setLogin(false)
     }
@@ -34,9 +34,9 @@ function Login(props) {
     const handlePasswordChange = (e) => {
         setUserInfo({ ...userInfo, passWord: e.target.value })
     }
-    const handlephoneChange = (e) =>{
-        setUserInfo({...userInfo, phoneNumber: e.target.value})
-        console.log({phoneNumber:  e.target.value})
+    const handlephoneChange = (e) => {
+        setUserInfo({ ...userInfo, phoneNumber: e.target.value })
+        console.log({ phoneNumber: e.target.value })
     }
     const submit = () => {
         console.log(userInfo)
