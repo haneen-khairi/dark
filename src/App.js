@@ -8,7 +8,7 @@ import './css/App.css';
 import Header from './Header';
 import Login from "./Login";
 import Register from "./Register";
-
+import TodoList from "./components/TodoList"
 const App = () =>{
 
   const [isLogin , setLogin ]= useState(false);
@@ -16,12 +16,13 @@ const App = () =>{
   return(
     <div>
        <Header />
-      {(isLogin) ? <Login  setLogin={setLogin} /> : <Register setLogin={setLogin} />}
-  </div>
-  )
-}
-export default App;
-
+<TodoList />
+       </div>
+       )
+      }
+      export default App;
+      
+      // {(isLogin) ? <Login  setLogin={setLogin} /> : <Register setLogin={setLogin} />}
 
 
 
